@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Capstone Project</title>
+    <style>
+        @media (max-width:640px) {
+            body{
+                background-color:red
+            }
+    
+            .tablet{
+                display: none;
+            }
+    
+            .mobile{
+                display: block;
+            }    
+            
+            .desktop{
+                display: none;
+            }
+    
+        }
+
+        @media (min-width:640px) {
+            body{
+                background-color:lightgreen
+            }
+    
+            .tablet{
+                display: block;
+            }
+    
+            .mobile{
+                display: none;
+            }    
+            
+            .desktop{
+                display: none;
+            }
+    
+        }
+
+        @media (min-width:1024px) {
+            body{
+                background-color:blue
+            }
+    
+            .tablet{
+                display: none;
+            }
+    
+            .mobile{
+                display: none;
+            }    
+            
+            .desktop{
+                display: block;
+                color: white;
+            }
+    
+        }
+    </style>
+</head>
+<body>
+    <div class="mobile">
+        <h1>Mobile Screen</h1>
+        <p>Red Colour</p>
+    </div>
+
+    <div class="tablet">
+        <h1>Tablet Screen</h1>
+        <p>Green Colour</p>
+    </div>
+
+    <div class="desktop">
+        <h1>Desktop Screen</h1>
+        <p>Blue Colour</p>
+    </div>
+    
+</body>
+</html>
