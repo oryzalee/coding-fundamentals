@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1 - Blog Section</title>
+</head>
+<!-- <link rel="stylesheet" href="style.css"> -->
+<style>
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    
+   
+}
+
+.wrap-outer{
+    background-color: darkcyan;
+
+}
+
+
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1160px;
+    flex-wrap: wrap;
+    width: 90%;
+
+   
+
+}
+
+
+
+
+.blog_description{
+    
+    color: antiquewhite;
+    font-weight: bold;
+    width: 500px;
+    
+    
+
+}
+
+
+.blog-li{
+    width: 500px;
+
+}
+
+
+
+
+.wealth_tree img{
+
+    border-radius: 1em;
+    max-width: 500px;
+
+}
+
+
+
+
+.blog-body{
+    background-color: azure;
+}
+
+.wrap-blog .blog-card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1160px;
+    
+    
+    
+
+    
+    
+}
+
+
+.flex-card-listitem{
+    
+    
+    border-radius: 10px;
+    background-color: antiquewhite;
+    padding: 1em;
+    margin-bottom: 0px;
+    padding-bottom: 8px;
+    
+    
+    
+}
+
+.flex-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100%;
+    
+    
+
+}
+
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+li {
+    
+    margin: 0.55em;
+}
+
+
+
+
+.flex-card-image img {
+    width: 300px;
+    height: 200px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: darkcyan;
+}
+
+.tag{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 5px;
+    width: 300px;
+}
+
+.tag-items{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5em;
+    background-color: lightslategray;
+    margin: 0.5rem 0.5rem 0 0;
+    padding: 4px 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: small;
+    color: white;
+    
+}
+
+
+.author-name{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.lower-row{
+    display: flex;
+    justify-content: space-between;
+    color: lightcoral;
+    align-items: center;
+    
+}
+
+
+.author-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.author-img img{
+    height: 32px;
+    width: 32px;
+    margin-right: 8px;
+    border-radius: 1em;
+}
+
+.title-container{
+    width: 300px;
+    color: darkcyan;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+</style>
+
+<body>
+    <div class="wrap-outer">
+        <ul class="wrap">
+            <li>
+                <div class="blog_description">
+                    <h1>Our Blogs</h1>
+                    <p>
+                        Read about investments, finance, personal growth, right money mindset and topics
+                        that can help in accumulating/growing your wealth. Feel free to browse through and contact us.
+                    </p>
+                
+                </div>
+            </li>
+            
+            <li class="blog-li">
+                <div class="wealth_tree">
+                    <img  src="https://m.foolcdn.com/media/affiliates/original_images/money_growing_plant_cl95ouO.jpg?width=1200" alt="personal wealth img">
+                </div>
+            </li>
+        </ul>
+</div>
+
+    <div class="wrap-blog">
+        <ul class="blog-card-list">
+
+              <li class="flex-card-listitem">
+                <a class="flex-card" href="https://ringgitplus.com/en/blog/financial-planning/how-to-future-proof-yourself-financially.html" target="_blank">
+                  <div class="flex-card-image">
+                    <img src="https://ringgitplus.com/en/blog/wp-content/uploads/2021/12/133033410_s.jpg" />
+                  </div>
+                  
+                        <div class="tag">
+                            <div class="tag-items">
+                                <h3 class="flex-card-heading">Retirement</h3>
+                            </div>
+                            <div class="tag-items">
+                                <h3 class="flex-card-heading">Finance</h3>
+                            </div>
+    
+                        </div>
+                        <div class="title-container">
+                            <h3 class="title">How To Future Proof Yourself Finacially</h3>
+                        </div>
+                        <div class="lower-row">
+                            <div class="author-info">
+                                <div class="author-img">
+                                    <img src="https://ringgitplus.com/en/blog/wp-content/uploads/2019/10/favicon.ico" alt="Ringgit Plus Icon">
+                                </div>
+                                <div class="author-name">Ringgit Plus</div>
+                                
+                            </div>
+                            <div>
+                                <p class="date-time">27/04/2022 11:21PM</p>
+                            </div>
+                        </div>
+                  
+                </a>
+              </li>
+        
+              <li class="flex-card-listitem">
+                <a class="flex-card" href="#" target="_blank">
+        
+                    <div class="flex-card-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwb0QI-tpGcwc7UdhSxObQJO2i2YiUuB7ZAw&usqp=CAU" />
+                    </div>
+                    
+                    <div class="tag">
+                        <div class="tag-items">
+                            <h3 class="flex-card-heading">Investing</h3>
+                        </div>
+    
+ 
+                    </div>
+                    <div class="title-container">
+                        <h3 class="title">Should You Invest in ETF</h3>
+                    </div>
+                    <div class="lower-row">
+                        <div class="author-info">
+
+                            <div class="author-img">
+                                <img src="https://media.licdn.com/dms/image/C5103AQGOTIccZolS9Q/profile-displayphoto-shrink_100_100/0/1561031141174?e=1680134400&v=beta&t=CoFWwJOsrkn7cIAMTaf3ysZlvCrAx1Sj11DCKYC7r6I" alt="zhao wei photo">
+                            </div>
+                            <div class="author-name">Lee Zhao Wei</div>
+                           
+                        </div>
+                        <div>
+                            <p class="date-time">20/01/2023 9:32AM</p>
+                        </div>
+                    </div>
+                  
+                </a>
+              </li>
+
+              <li class="flex-card-listitem">
+                <a class="flex-card" href="https://www.robomarkets.com/blog/education/types-of-corporate-actions-every-investor-should-know/" target="_blank">
+                  <div class="flex-card-image">
+                    <img src="data:image/jpeg;base64,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" />
+                  </div>
+                  
+                    <div class="tag">
+                        <div class="tag-items">
+                            <h3 class="flex-card-heading">Stock</h3>
+                        </div>
+                        <div class="tag-items">
+                            <h3 class="flex-card-heading">Investing</h3>
+                        </div>
+ 
+                    </div>
+
+                    <div class="title-container">
+                        <h3 class="title">Types of Corporate Actions Every Investor Should Know</h3>
+                    </div>
+                    <div class="lower-row">
+                        <div class="author-info">
+
+                            <div class="author-img">
+                                <img src="https://www.robomarkets.com/blog/wp-content/uploads/2018/10/cropped-rf-logo_square-32x32.png" alt="Robo Market logo">
+                            </div>
+                            <div class="author-name">Robo Market</div>
+                            
+                        </div>
+                        <div>
+                            <p class="date-time">02/01/2023 13:55PM</p>
+                        </div>
+                    </div>
+                  
+                </a>
+              </li>
+
+   
+
+
+        </ul>
+
+    </div>
+    
+</body>
+</html>
