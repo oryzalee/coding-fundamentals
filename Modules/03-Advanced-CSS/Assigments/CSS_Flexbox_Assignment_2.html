@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Review Card</title>
+    <style>
+
+        .container{
+            padding: 30px 30px 30px 30px;
+            width: 60%;
+            background-color: rgb(249, 249, 249);
+            border: 1px black solid;
+            border-radius: 8px;
+            margin: auto;
+            
+        }
+
+
+        .customer-section{
+            display: flex;
+            justify-content:flex-start;
+            flex-direction: row;
+            align-items: center;
+            
+        }
+
+        .avatar_img img{
+            border-radius: 100px;
+            width: 40px;
+        }
+
+        .name{
+            margin-bottom: 5px;
+        }
+
+        .name-rating{
+            display: flex;
+            flex-direction: column;
+            margin-left: 12px;
+        }
+
+        .checked {
+            color: orange;
+        }
+
+        .comment_section p{
+            margin-top: 8px;
+            margin-bottom: 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="customer-section">
+            <div class="avatar_img">
+                <img src="https://media.licdn.com/dms/image/C5103AQGOTIccZolS9Q/profile-displayphoto-shrink_200_200/0/1561031141174?e=1680134400&v=beta&t=_XKfj3QlAF2rUxHY41Kxrc7qRk_5LLjAFlkdUHXoTXE" alt="profile pic">
+            </div>
+
+            <div class="name-rating">
+                <div class="name">Lee Zhao Wei </div>
+
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="comment_section">
+            <p>The table quality is well built and sturdy. It can even 
+                withstand an adult weight easily. Wide and long enough for 
+                my daily working use, good bang for the buck. Surely come 
+                again if I need another one.
+            </p>
+
+        </div>
+    </div>
+</body>
+</html>
